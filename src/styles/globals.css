@@ -1,0 +1,64 @@
+.button{
+    opacity: 0;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+}
+.box:hover .button{
+    opacity: 1;
+    transition: all 0.5s ease;
+   
+}
+.box:hover{
+    opacity: 0.8;
+}
+
+.dot{
+    color: red;
+}
+.btn{
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+}
+
+/* Add your custom styling for the dots */
+.custom-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .custom-dot.active {
+    background-color: #333;
+  }
+  
+  /* Overlay dots on the carousel items */
+  .alice-carousel__stage-item {
+    position: relative;
+  }
+  
+  .custom-dot {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .header{
+    transform: translateX(-50%);
+  }
+
+  .icon{
+    transform: translateX(-50%);
+  }
+  
+
+
+
